@@ -253,7 +253,7 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    background-image: url(../img/space.jpg);
+    background-image: url(../img/purple.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,32 +291,6 @@ body {
         text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
         color: #FFFFFF;
         }
-/* #hero .social_links a {
-    -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-#hero .social_links a:nth-of-type(2) {
-    -webkit-animation-delay: 250ms;
-       -moz-animation-delay: 250ms;
-         -o-animation-delay: 250ms;
-            animation-delay: 250ms;
-}
-
-#hero .social_links a:nth-of-type(3) {
-    -webkit-animation-delay: 500ms;
-       -moz-animation-delay: 500ms;
-         -o-animation-delay: 500ms;
-            animation-delay: 500ms;
-}
-
-#hero .social_links a:nth-of-type(4) {
-    -webkit-animation-delay: 750ms;
-       -moz-animation-delay: 750ms;
-         -o-animation-delay: 750ms;
-            animation-delay: 750ms;
-} */
-
 /*-----------------------------------------------------------------------------
  * About section
  *-----------------------------------------------------------------------------*/
@@ -344,6 +318,11 @@ body {
 
 #text {
     background-color: yellow;
+    color: black;
+}
+
+#text2 {
+    background-color: LIME;
     color: black;
 }
 /*-----------------------------------------------------------------------------
@@ -414,19 +393,16 @@ body {
  * Footer Section
  *-----------------------------------------------------------------------------*/
  #footer {
-    background-color: black;
+    background-color: yellowgreen;
     margin-top: 20px;
 }
 
-/* -----------------------------------------------------------------------------
- Spinner
- ----------------------------------------------------------------------------- */ 
- #spinner {
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    width: 100vw; 
-    height: 100vh; 
-    background-color: rgba(0,0,0,0.4); 
-    z-index: 9999;
+#footer .wrapper .container .social {
+    margin-left: 130px;
 }
+footer .wrapper .container .social .rowfinal::after {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 
