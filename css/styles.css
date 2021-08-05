@@ -321,57 +321,6 @@ body {
     color: black;
 }
 
-#text2 {
-    background-color: LIME;
-    color: black;
-}
-/*-----------------------------------------------------------------------------
- * Portfolio section
- *-----------------------------------------------------------------------------*/
- #portfolio .container #demotext {
-    text-align: center;
-    font-size: 120px;
-    color: #FFFFFF;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(0, 225, 255), 0 -10px 20px #0044ff, 0 -18px 40px rgb(94, 255, 0);
-    color: #FFFFFF;
-       }
-
-#portfolio img {
-   height: 300px;
-   width: 300px;
-}
-
-#portfolio .card-text {
-   font-size: 1.15em;
-   line-height: 1.7em;
-}
- #portfolio .wrapper .container #demotext {
-    text-align: center;
-    font-size: 120px;
-    color: #FFFFFF;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e418ff, 0 0 30px #9718ff, 0 0 40px #f718ff, 0 0 55px #8f18ff, 0 0 75px #ff18ff;
-    color: #FFFFFF;
-    }
-
- #portfolio {
-    background-image: url(../img/spaceblue.jpg);
-}
-
-#portfolio .carousel {
-    margin-bottom: 48px;
-}
-
-#portfolio .card .carousel-indicators {
-    transform: translateY(200%);
-}
-
-#portfolio .card .carousel-indicators li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: var(--color-accent);
-}
-
 /*-----------------------------------------------------------------------------
  * Contact section
  *-----------------------------------------------------------------------------*/
